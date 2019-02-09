@@ -438,7 +438,7 @@ function request(url, type, callback)
 
     var xhr = new XMLHttpRequest();
     xhr.responseType = type;
-    xhr.open('POST', url, true);
+    xhr.open('GET', url, true);
 
     xhr.onload = function ()
     {
