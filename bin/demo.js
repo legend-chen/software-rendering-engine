@@ -480,7 +480,7 @@
                 width: n,
                 height: e,
                 Fb: new E(n / 2, e / 2)
-            }, document.body.appendChild(r), document.body.insertAdjacentHTML("beforeBegin", '<div style="position:absolute">' + n + " × " + e + "<br />devicePixelRatio = " + devicePixelRatio + "<div>"), 
+            }, document.body.appendChild(r), document.body.insertAdjacentHTML("afterBegin", '<div style="position:absolute">' + n + " × " + e + "<br />devicePixelRatio = " + devicePixelRatio + "<div>"), 
             t = document.body.firstChild, w.Gb = function() {
                 var a = Array.prototype.slice.call(arguments);
                 t.insertAdjacentHTML("beforeEnd", "<pre style=font-family:'Monaco';line-height:12px;font-size:12px>" + a + "</pre>");
@@ -498,4 +498,4 @@
     }(), S = 30, m = 1, y = 100, U = 16, x = [], k = !1, window.addEventListener("load", r), 
     A = !0, z = new E(), D = new E(), document.addEventListener("mousedown", i), document.addEventListener("mousemove", o), 
     document.addEventListener("mouseup", u), document.addEventListener("mousewheel", b), 
-    Z = 0, $ = 0, t.Mb = a;
+    Z = 0, $ = 0
